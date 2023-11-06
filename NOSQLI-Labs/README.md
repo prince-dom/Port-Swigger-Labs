@@ -1,4 +1,4 @@
-# Detecting_NoSQL_injection
+# Detecting NoSQL Injection
 
 ``` 
 # python3 Detecting_NoSQL_injection.py
@@ -6,4 +6,4 @@
 
 ```
 <br>
-NOTE: After executing script its show failed then please refresh the page.
+NOTE: After executing script if it show failed then please refresh the page.
