@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import requests, urllib3
 import sys
 import time
