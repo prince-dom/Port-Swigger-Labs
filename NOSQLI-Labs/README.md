@@ -1,4 +1,4 @@
-# Detecting NoSQL Injection
+# Port Swigger Academy --> NoSQL Injection
 
 ``` 
 # python3 <ALL_SCRIPT>.py
