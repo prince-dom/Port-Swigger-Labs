@@ -1,3 +1,7 @@
+#!/usr/share/python3
+
+#Finding a hidden GraphQL endpoint
+
 import requests
 import sys
 import json
