@@ -1,4 +1,4 @@
-#!/usr/share/python3
+#!/usr/bin/python3
 #Lab: Finding a hidden GraphQL endpoint : https://portswigger.net/web-security/graphql/lab-graphql-find-the-endpoint
 
 import requests
