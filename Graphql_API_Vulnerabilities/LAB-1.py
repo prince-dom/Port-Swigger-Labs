@@ -1,3 +1,6 @@
+#!/usr/share/python3
+#Lab: Accessing private GraphQL posts : https://portswigger.net/web-security/graphql/lab-graphql-reading-private-posts
+
 import requests
 import sys
 import json

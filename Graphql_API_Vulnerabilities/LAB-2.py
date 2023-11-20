@@ -1,3 +1,6 @@
+#!/usr/share/python3
+#Lab: Accidental exposure of private GraphQL fields : https://portswigger.net/web-security/graphql/lab-graphql-accidental-field-exposure
+
 import requests
 import sys
 import json
