@@ -127,7 +127,7 @@ def main():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.RawTextHelpFormatter,
         usage=" %(prog)s -h or --help",
-        epilog='Additional information that will be displayed at the end of the help message.'
+        epilog='Some script unable to fetch lab is solved or not.'
     )
     parser.add_argument('-U','--url', required=True, help='URL (required)')
     parser.add_argument('-u', '--username', required=False, help='Username if required')
