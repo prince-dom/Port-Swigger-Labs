@@ -130,8 +130,11 @@ def main():
         epilog='Some script unable to fetch lab is solved or not.'
     )
     parser.add_argument('-U','--url', required=True, help='URL (required)')
+    parser.add_argument("-t", "--terddddddddd",
+                    help="Target URL (e.g. 'https://example.com/?name=test')")
     parser.add_argument('-u', '--username', required=False, help='Username if required')
-    b = parser.add_argument('-p', '--password', required=False, help='Password if required')
+    b = parser.add_argument('-p', '--password', required=False, 
+                            help='Password if required')
     args = parser.parse_args()
     url = args.url
     username = args.username
