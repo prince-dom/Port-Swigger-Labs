@@ -131,7 +131,7 @@ def main():
     )
     parser.add_argument('-U','--url', required=True, help='URL (required)')
     parser.add_argument('-u', '--username', required=False, help='Username if required')
-    parser.add_argument('-p', '--password', required=False, help='Password if required')
+    b = parser.add_argument('-p', '--password', required=False, help='Password if required')
     args = parser.parse_args()
     url = args.url
     username = args.username
