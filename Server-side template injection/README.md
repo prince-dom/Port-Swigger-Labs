@@ -31,5 +31,6 @@ $ python3 ssti.py -U https://xxxxxxxxxxxxxxxxxxxxxxxxx.web-security-academy.net
 
 2. If credentials are required.
 
-```$ python3 ssti.py -u user -p pass -U https://xxxxxxxxxxxxxxxxxxxxxxxxx.web-security-academy.net
+```
+$ python3 ssti.py -u user -p pass -U https://xxxxxxxxxxxxxxxxxxxxxxxxx.web-security-academy.net
 ```
